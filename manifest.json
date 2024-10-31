@@ -1,13 +1,20 @@
 {
   "manifest_version": 3,
-  "name": "Canvas Custom Theme",
-  "version": "1.0",
-  "description": "Apply custom themes to Canvas LMS.",
-  "permissions": ["storage", "scripting", "tabs"],
+  "name": "Canvas Dark Mode",
+  "version": "1.1",
+  "description": "Enable dark mode on Canvas LMS.",
+  "permissions": ["storage"],
   "host_permissions": ["https://*.instructure.com/*"],
   "action": {
     "default_popup": "popup.html"
   },
-  "options_page": "options.html"
+  "content_scripts": [
+    {
+      "matches": ["https://*.instructure.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
 }
+
 
