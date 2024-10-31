@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Canvas Custom Theme",
+  "version": "1.0",
+  "description": "Apply custom themes to Canvas LMS.",
+  "permissions": ["storage", "scripting", "tabs"],
+  "host_permissions": ["https://*.instructure.com/*"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html"
+}
+

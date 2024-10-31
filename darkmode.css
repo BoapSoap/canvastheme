@@ -1,0 +1,25 @@
+/* Global dark background */
+body.dark-mode {
+    background-color: #121212 !important;
+    color: #e0e0e0 !important;
+}
+
+/* Canvas-specific header elements */
+body.dark-mode .ic-app-header,
+body.dark-mode .ic-top-bar,
+body.dark-mode .ic-NavMenu-list-item__text {
+    background-color: #333 !important;
+    color: #fff !important;
+}
+
+/* Canvas main content */
+body.dark-mode .ic-app-main-content {
+    background-color: #121212 !important;
+    color: #e0e0e0 !important;
+}
+
+/* Links in dark mode */
+body.dark-mode a {
+    color: #bb86fc !important;
+}
+

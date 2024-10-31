@@ -1,0 +1,14 @@
+/* styles.css */
+
+/* Dark Mode Styles */
+body, .ic-app-header, .ic-app-nav-toggle-and-crumbs {
+    background-color: #121212 !important;
+    color: #ffffff !important;
+}
+
+a, .ic-app-header__logomark {
+    color: #bb86fc !important;
+}
+
+/* Adjust specific elements as needed */
+
